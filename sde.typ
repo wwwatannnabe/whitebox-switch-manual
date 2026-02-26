@@ -93,7 +93,7 @@ bf-platformsまで正しくビルドできているならば、\$SDE_INSTALL/bin
 ```
 export P4_NAME=<プログラム名>
 export P4_PATH=<p4プログラムがある位置>
-./configure --prefix=$SDE_INSTALL
+./configure --with-tofino --prefix=$SDE_INSTALL
 make -j$(nproc)
 make install
 ```
